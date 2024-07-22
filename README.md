@@ -138,7 +138,7 @@ resource "docker_container" "nginx" {
    потому что использовали параметр keep_locally = true при создании iamge.
    В документации написано:
 
-  [keep_locally (Boolean) If true, then the Docker image won't be deleted on destroy operation. If this is false, it will delete the image from the docker local storage on destroy operation(https://docs.comcloud.xyz/providers/kreuzwerker/docker/latest/docs/resources/image)
+ [Keep_locally (Boolean) If true, then the Docker image won't be deleted on destroy operation. If this is false, it will delete the image from the docker local storage on destroy operation](https://docs.comcloud.xyz/providers/kreuzwerker/docker/latest/docs/resources/image)
 
 
 
