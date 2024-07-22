@@ -22,7 +22,6 @@
 
 **Решение 1**
 
-![alt text](https://github.com/mezhibo/docker-compose/blob/01d7e387556b270ba6c00a9fc823b4e908750d3f/IMG/1.jpg)
 
 
 1) Скачиваем файлы для домашнего задания (скрин сделан после инициалоизации, фаил .terraformrc перемещен в папку /home/ubuntu)
@@ -145,4 +144,4 @@ resource "docker_container" "nginx" {
 
 
 
-
+[ССЫЛКА НА ФАЙЛЫ](https://github.com/mezhibo/Vvedenie-terraform/tree/a152d0f94649a905b8e662e7e5e60d80e4292593/SRC)
