@@ -135,7 +135,10 @@ resource "docker_container" "nginx" {
 
 
 8) Докер образ nginx:lates не был удален, потому что
-   потому что использовали параметр keep_locally = true при создании iamge.
+   потому что использовали параметр keep_locally = true при создании image.
+
+![alt text](https://github.com/mezhibo/Vvedenie-terraform/blob/0bfbffff5f19fb4b87258b23f1ef5882c206f513/IMG/17.jpg)
+
    В документации написано:
 
  [Keep_locally (Boolean) If true, then the Docker image won't be deleted on destroy operation. If this is false, it will delete the image from the docker local storage on destroy operation](https://docs.comcloud.xyz/providers/kreuzwerker/docker/latest/docs/resources/image)
